@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #004080;
+    color: white;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #004080;
+    text-align: center;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 0%;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.destinos {
+    background-color: #d7d8da;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 5px 0;
+}
+
+nav ul li a {
+    color: #004080;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.cars-grid,
+.hotels-grid,
+.guides-grid {
+    display: flex;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.car-item,
+.hotel-item,
+.guide-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    width: 30%;
+    text-align: center;
+    align-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0066cc;
+}
+
+footer {
+    padding: 20px;
+    background-color: #004080;
+    color: white;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+}
+
+.contacto-input {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.otros-destinos {
+    background-color: #d7d8da;
+    padding: 10px;
+}
+
+.destinos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}

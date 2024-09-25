@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Viajes a Sevilla, Viajes a Madrid, Viajes a Barcelona, Viajes a Galicia, vuelos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GascaTrip</title>
+    <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+    <header class="component"> <img src="https://img.freepik.com/vector-premium/icono-avion_910989-2088.jpg" alt="Logo" width="40" height="40">
+        <h1>Viaja por España con GascaTrip</h1>
+    </header>
+    <main>
+        <section class="hero"> <img src="https://querkus.es/wp-content/uploads/2019/10/bannersevilla.jpg" alt="vuelos" class="hero-img" />
+            <h2>Encuentra los mejores vuelos por España</h2>
+            <div class="buscar-div">
+                <input id="destino" type="text" name="destino" placeholder="Destino">
+                <input type="date">
+                <button>Buscar</button>
+            </div>
+        </section>
+        <section class="destinos">
+            <h2>Elige tu destino:</h2>
+            <nav>
+                <ul>
+                    <li><a href="viajes/sevilla.html">Sevilla</a></li>
+                    <li><a href="viajes/madrid.html">Madrid</a></li>
+                    <li><a href="viajes/barcelona.html">Barcelona</a></li>
+                    <li><a href="viajes/galicia.html">Galicia</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="alquiler-coches">
+            <h2>Alquila un coche</h2>
+            <div class="cars-grid">
+                <div class="car-item"> <img src="https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2023/01/02/16726570708396.jpg" width="300" height="200" alt="Hyundai Tucson">
+                    <h3>Hyundai Tucson</h3>
+                    <p>Desde 17€</p> <button>Alquilar</button> </div>
+                <div class="car-item"> <img src="https://images.coches.com/_vn_/mg/ZS/1f3db09e97231d2660e3e8f0ae8fd1aa.jpg" width="300" height="200" alt="Mg X1">
+                    <h3>Mg X1</h3>
+                    <p>Desde 10€</p> <button>Alquilar</button> </div>
+                <div class="car-item"> <img src="https://phantom-expansion.unidadeditorial.es/a6cfd081d0278574e5f352c67eddf1c1/resize/720/f/webp/assets/multimedia/imagenes/2023/01/02/16726616521858.jpg" width="300" height="200" alt="Dacia Sandero">
+                    <h3>Dacia Sandero</h3>
+                    <p>Desde 12€</p> <button>Alquilar</button> </div>
+            </div>
+        </section>
+        <section class="hoteles">
+            <h2>Los Mejores Hoteles</h2>
+            <div class="hotels-grid">
+                <div class="hotel-item"> <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/122118744.jpg?k=735ed9ca359c3ba8bfbe8affb42184b5d4509258afd6e9edee6841c419ae8e19&o=&hp=1" width="300" height="200" alt="Center Madrid">
+                    <h3>Center Madrid</h3>
+                    <p>Desde 18€</p> <button>Reservar</button> </div>
+                <div class="hotel-item"> <img src="https://www.hotelfernandoiii.es/wp-content/uploads/sites/1702/nggallery/03-home//terrazafernando_m.jpg" width="300" height="200" alt="Center Sevilla">
+                    <h3>Center Sevilla</h3>
+                    <p>Desde 14€</p> <button>Reservar</button> </div>
+                <div class="hotel-item"> <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/407861743.jpg?k=aed9979c11754e8d1a3b3d6fc58f672a85094d275b0292cf1b9ada184990aa21&o=&hp=1" width="300" height="200" alt="Valencia Arenas">
+                    <h3>Valencia Arenas</h3>
+                    <p>Desde 16€</p> <button>Reservar</button> </div>
+            </div>
+        </section>
+        <section class="guias">
+            <h2>Visitas Guiadas</h2>
+            <div class="guides-grid">
+                <div class="guide-item"> <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/36/96/64.jpg" width="300" height="200" alt="Ávila y Segovia">
+                    <h3>Ávila y Segovia</h3>
+                    <p>Explorar Ávila y Segovia desde Madrid en un día puede ser difícil sin un coche. Este recorrido en autobús turístico es la opción fácil, con un guía que le explicará la historia de ambas ciudades.</p> <button>Reservar</button> </div>
+                <div class="guide-item"> <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/5b/d8/0d.jpg" width="300" height="200" alt="Sevilla">
+                    <h3>Sevilla</h3>
+                    <p>Sáltate las colas y visita la Catedral de Sevilla y la Giralda con acceso prioritario.</p> <button>Reservar</button> </div>
+            </div>
+        </section>
+        <section class="otros-destinos">
+            <h2>Recomendaciones de otros destinos</h2>
+            <ul class="destinos-grid">
+                <li>Tailandia</li>
+                <li>Italia</li>
+                <li>Colombia</li>
+                <li>Argentina</li>
+                <li>Malta</li>
+                <li>Grecia</li>
+                <li>Turquía</li>
+                <li>Albania</li>
+                <li>México</li>
+            </ul>
+        </section>
+        <section class="contacto">
+            <h2>Contacta con nosotros para un servicio personalizado</h2>
+            <input class="contacto-input" type="email" id="correo" name="correo" placeholder="Correo Electrónico">
+            <textarea id="cuerpo" name="cuerpo" placeholder="Cuéntanos qué estás buscando">
+            </textarea>
+            <button>Enviar</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 GascaTrip.com Travel Spain Pte. Ltd. Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>

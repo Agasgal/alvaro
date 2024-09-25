@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        try {
+            //ejemplo: no es error dividir entre 0
+            let a = 5,
+                b = 0;
+            let c = a / b;
+            console.log("el resultado es " + c);
+
+            //ejemplo: si hay error
+            const v = [1, 2, 3];
+            v = [1, 2, 3, 4];
+            console.log("mi vector es " + v);
+        } catch (error) {
+            console.log(error)
+
+        } finally {
+            console.log("infinito")
+        }
+    </script>
+    <script>
+        let numero;
+        numero = prompt("introduce un numero:", "hello");
+        if (isNaN(numero)) {
+            throw new Error("Debes introducir un numero");
+        }
+        console.log(number * number);
+    </script>
+</body>
+
+</html>
